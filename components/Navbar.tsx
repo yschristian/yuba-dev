@@ -30,8 +30,8 @@ const Navbar = () => {
         e.currentTarget.classList.add("active")
     }
 
-    const handleClick = (e: any) =>{
-        if(e.target.contains(ref.current) ){
+    const handleClick = (e: any) => {
+        if (e.target.contains(ref.current)) {
             setShowMenu(false)
         }
     }
@@ -142,7 +142,7 @@ const Navbar = () => {
                 </div>
                 {showMenu && (
                     <div ref={(node) => (ref.current = node)}
-                    onClick={handleClick}
+                        onClick={handleClick}
                         className='absolute mdl:hidden top-7 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end'
                     >
                         <motion.div
@@ -248,19 +248,19 @@ const Navbar = () => {
                                             <TbBrandGithub />
                                         </span>
                                     </a>
-                                    <a href='https://github.com/yschristian' target='_black'>
+                                    <a href='https://www.linkedin.com/in/yubahwe-shema-christian-b1714222b/' target='_black'>
                                         <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                             <SlSocialLinkedin />
                                         </span>
                                     </a>
-                                    <a href='https://github.com/yschristian' target='_black'>
+                                    <a href='https://www.facebook.com/shemayubahwe.christian/' target='_black'>
                                         <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                             <SlSocialFacebook />
                                         </span>
                                     </a>
-                                    <a href='https://github.com/yschristian' target='_black'>
+                                    <a href='https://www.instagram.com/yubahwe_/' target='_black'>
                                         <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
                 items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                             <SlSocialInstagram />
@@ -269,12 +269,12 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <motion.a
-                                initial={{opacity: 0}}
-                                animate={{opacity: 1}}
-                                transition={{delay: 1.2 , ease:"easeIn"}}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 1.2, ease: "easeIn" }}
                                 href='mailto:yubahwesc@gmail.com'
-                             className='text-sm w-72 tracking-widest text-textGreen text-center mt-4 '
-                             >
+                                className='text-sm w-72 tracking-widest text-textGreen text-center mt-4 '
+                            >
                                 <p>yubahwesc@gmail.com</p>
                             </motion.a>
                         </motion.div>

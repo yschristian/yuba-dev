@@ -59,7 +59,7 @@ const Projects = () => {
           <div className='flex flex-col xl:flex-row-reverse gap-6'>
             <a
               className='w-full xl:w-1/2 h-auto relative group'
-              href="https://uhdss.com/"
+              href="https://yubagroup.vercel.app/"
               target='_blank'
             >
               <div>
@@ -101,7 +101,7 @@ const Projects = () => {
           <div className='flex flex-col xl:flex-row gap-6'>
             <a
               className='w-full xl:w-1/2 h-auto relative group'
-              href="https://uhdss.com/"
+              href="https://quickhouse-fronted.vercel.app/"
               target='_blank'
             >
               <div>
