@@ -27,7 +27,7 @@ const Archive = () => {
         /> */}
         <ArchiveCard
           title='Doctor Appointment System'
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum saepe quod itaque excepturi numquam, velit aliquam nam corporis laboriosam quo repellendus nemo sint impedit tenetur quidem odit, ab nostrum magni."
+          des="Dream Medical Center aims to simplify the process of scheduling doctor appointments, providing users with a user-friendly platform that connects them with healthcare professionals and clinics efficiently"
           listItem={["ReactJs", "NodeJs", "MongoDb"]}
           link='https://doctor-app-client.vercel.app/'
         />
