@@ -31,9 +31,9 @@ const Projects = () => {
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
               <h3 className="text-2xl font-bold">UHDSS Education agecy</h3>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima neque iure,
-                et possimus ducimus provident, voluptate enim architecto reprehenderit a repellendus
-                laudantium mollitia beatae numquam, quaerat at ex? Quos.
+              the UHDSS Education Agency system aims to simplify and automate the process of studying abroad, 
+              applying for visas, finding work opportunities, and connecting with authorized agents,
+               enhancing the user experience and improving efficiency in the education agency domain.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>Reactjs</li>
@@ -74,9 +74,9 @@ const Projects = () => {
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
               <h3 className="text-2xl font-bold">YubaGroup</h3>
               <p className='bg-[#112240] text-sm md:text-base p-2 xl:-mr-16  md:p-6 rounded-md'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima neque iure,
-                et possimus ducimus provident, voluptate enim architecto reprehenderit a repellendus
-                laudantium mollitia beatae numquam, quaerat at ex? Quos.
+              Yuba Group aims to provide a seamless and secure ecommerce experience, 
+              connecting buyers and sellers in a user-friendly platform that 
+              supports a wide variety of products and simplifies the online shopping process
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>Reactjs</li>
