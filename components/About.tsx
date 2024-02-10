@@ -14,9 +14,8 @@ const About = () => {
       <div className='flex flex-col lgl:flex-row gap-16'>
         <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ullam iste eos necessitatibus quam deleniti minima tempora fugiat numquam non beatae cupiditate inventore a iure aliquid voluptatum quisquam adipisci unde dolorem expedita,
-            distinctio perferendis? Et nisi provident blanditiis accusamus deleniti, tempora similique repudiandae, magnam aliquam explicabo sequi praesentium tempore optio sunt.
+          I’m a software engineer with a diverse skill set spanning mobile and web development, software project management, and software testing. With several years of experience under my belt, I've honed expertise in crafting efficient and scalable solutions across various platforms. My proficiency in both front-end and back-end technologies equips me to tackle challenges at every stage of the development lifecycle.
+          My project management skills ensure smooth coordination and delivery, while my dedication to software testing guarantees the reliability and quality of products.
           </p>
           <p>Here are a few technologies i have been working with recently! </p>
           <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
@@ -46,6 +45,9 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className='text-textGreen'><AiFillThunderbolt /></span>Tailwindcss
+            </li>
+            <li className="flex items-center gap-2">
+              <span className='text-textGreen'><AiFillThunderbolt /></span>React Native
             </li>
           </ul>
         </div>
