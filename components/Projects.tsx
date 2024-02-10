@@ -101,7 +101,7 @@ const Projects = () => {
           <div className='flex flex-col xl:flex-row gap-6'>
             <a
               className='w-full xl:w-1/2 h-auto relative group'
-              href="https://quickhouse-fronted.vercel.app/"
+              href="https://www.quickhousepro.com/"
               target='_blank'
             >
               <div>
@@ -116,9 +116,7 @@ const Projects = () => {
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
               <h3 className="text-2xl font-bold">Quick House</h3>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima neque iure,
-                et possimus ducimus provident, voluptate enim architecto reprehenderit a repellendus
-                laudantium mollitia beatae numquam, quaerat at ex? Quos.
+              QuickHouse simplifies the complexities of property management, catering to both buyers and sellers with its comprehensive suite of features. Through the intuitive mobile app and user-friendly web interface, users can effortlessly navigate through property listings, streamline buying and selling processes, and manage their property portfolios with ease.
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>Reactjs</li>
