@@ -122,12 +122,13 @@ const Projects = () => {
                 <li>Reactjs</li>
                 <li>Nodejs</li>
                 <li>MongoDB</li>
-                <li>Vercel Deployment</li>
+                <li>Vercel Deployment & NameCheap</li>
+
               </ul>
               <div className='text-2xl flex gap-2'>
                 <a
                   className='hover:text-textGreen duration-300'
-                  href="https://uhdss.com/"
+                  href="https://www.quickhousepro.com/"
                   target='_blank'
                 >
                   <RxOpenInNewWindow />
